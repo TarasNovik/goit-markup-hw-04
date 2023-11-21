@@ -104,7 +104,8 @@ justify-content: space-between;
     /* hero */
 .hero{background-color: #2E2F42;
 padding: 188px 0;
-background-image: url(/images/peopleoffice1.jpg);
+background-image:rgba(46, 47, 66, 0.7) url(/images/peopleoffice1.jpg);
+background-repeat: no-repeat;
 }
 
    
