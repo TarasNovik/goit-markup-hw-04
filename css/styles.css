@@ -62,7 +62,12 @@ justify-content: space-between;
 .logo-studio{
     color: #2E2F42;
     }
-
+.studio::after{ content:'1';
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--OCEAN, #404BBF);
+}
 .social-links .link{
     font-size: 16px;
     font-weight: 500;
@@ -116,8 +121,7 @@ background-image: linear-gradient(to bottom,
 background-repeat: no-repeat;
 }
 
-.icon{ width: 16px;
-height: 16px;}   
+ 
 .title-hero{
     max-width: 496px;
     color: #ffffff;   
