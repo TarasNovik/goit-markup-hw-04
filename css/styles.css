@@ -116,7 +116,8 @@ background-image: linear-gradient(to bottom,
 background-repeat: no-repeat;
 }
 
-   
+.icon{ width: 16px;
+height: 16px;}   
 .title-hero{
     max-width: 496px;
     color: #ffffff;   
