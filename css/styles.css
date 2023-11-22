@@ -62,12 +62,13 @@ justify-content: space-between;
 .logo-studio{
     color: #2E2F42;
     }
-.studio::after{ display: flex;
+.studio::after{ display: block;
     content:'';
     width: 48px;
     height: 4px;
     border-radius: 2px;
-    background: var(--OCEAN, #404BBF);
+    background-color: var(--OCEAN, #404BBF);
+    
 }
 .social-links .link{
     font-size: 16px;
