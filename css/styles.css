@@ -152,10 +152,15 @@ background-size: cover;
     background-color:#4D5AE5;
     margin-top: 48px;
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+    transition-property: background-color;
+    transition-duration: 250ms;
+}
 .button:hover,
 .button:focus{
-    background-color: #404BBF;}
+    background-color: #404BBF;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .visually-hidden{ 
         position: absolute;
         width: 1px;
@@ -256,9 +261,13 @@ background-size: cover;
     width: 40px;
     height: 40px;
     background-color: #4D5AE5;
-cursor: pointer;}
+cursor: pointer;
+transition-property:background-color;
+transition-duration: 250ms;
+}
 
-.elips:hover{background-color: #31d0aa;}
+.elips:hover{background-color: #31d0aa;
+transition-timing-function: cubic-bezier(0.4,0,0.2,1);}
 
 .portfolio-section{
 background-color: #FFF;}
