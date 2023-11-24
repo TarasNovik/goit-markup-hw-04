@@ -194,9 +194,17 @@ background-size: cover;
     letter-spacing: 0.02em;
     align-items: flex-start;
 }
-.icon-advantages{ fill: #2E2F42;width: 64px;
-    height: 64px;
+.icon-advantages{ fill: #2E2F42;
     flex-shrink: 0;}
+.icon-frame{display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;border-radius: 4px;
+    border: 1px solid  #8E8F99;
+    background-color: #F4F4FD;
+    }
 /* TEAM */
 .section-team{
     background: #F4F4FD;
@@ -227,6 +235,7 @@ background-size: cover;
     padding-bottom: 0px;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     }
 .trailing-icons{
     display: flex;
@@ -237,12 +246,8 @@ background-size: cover;
     padding-left: 0;
    }
 .social-list-icon{ fill: #f4f4fd;
-    width: 16px; 
-height: 16px;
-margin: 12px;
-       
-        
-    }
+    margin-top: 8px;
+}
 .elips{border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -275,8 +280,12 @@ background-color: #FFF;}
     width: calc((100% - 48px) / 3);
     padding-bottom: 0px;
     flex-shrink: 0;
-    background: #FFF;       
+    background: #FFF;
+    cursor: pointer;       
 }
+.portfolio-card:hover { box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+0px 1px 6px 0px rgba(46, 47, 66, 0.08);}
 .portfolio-card-content{
     max-width: 360px;
     display: flex;
