@@ -246,9 +246,12 @@ background-size: cover;
     padding-left: 0;
    }
 .social-list-icon{ fill: #f4f4fd;
-    margin-top: 8px;
+   
 }
-.elips{border-radius: 50%;
+.elips{ display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
     width: 40px;
     height: 40px;
     background-color: #4D5AE5;
