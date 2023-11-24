@@ -35,6 +35,9 @@ img{
 /* header */
 .header{
     border-bottom: 1px solid  #E7E9FC;
+    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-conteiner{display: flex;
 align-items: center;
@@ -62,17 +65,19 @@ justify-content: space-between;
 .logo-studio{
     color: #2E2F42;
     }
-.studio::after{ 
-    
+.studio{ position: relative;
+    color: #404bbf;
 }
-.studio:active::after{display: block;
+.studio::after{ position: absolute;
     content:'';
-    width: 48px;
+    left: 0;
+    bottom: -1px;
     height: 4px;
     border-radius: 2px;
-    background-color: var(--OCEAN, #404BBF);
+    background-color: #404bbf;
     position: relative;
-    bottom: -21px;}
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 .social-links .link{
     font-size: 16px;
     font-weight: 500;
@@ -103,12 +108,13 @@ justify-content: space-between;
     font-style: normal;
     padding-top: 24px;
     padding-bottom: 24px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:hover, 
 .link:focus{color: #404BBF;
 }
-.section{
+.section{ 
     padding-top: 120px;
     padding-bottom: 120px;}
     /* hero */
@@ -120,6 +126,8 @@ background-image: linear-gradient(to bottom,
          url(/images/peopleoffice1.jpg);
 background-repeat: no-repeat;
 background-size: cover;
+max-width: 1440px;
+background-position: center;
 }
 
  
@@ -157,9 +165,9 @@ background-size: cover;
     transition-duration: 250ms;
 }
 .button:hover,
-.button:focus{
+.button:focus{ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #404BBF;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .visually-hidden{ 
         position: absolute;
@@ -210,6 +218,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     flex-shrink: 0;border-radius: 4px;
     border: 1px solid  #8E8F99;
     background-color: #F4F4FD;
+    margin-bottom: 8px;
     }
 /* TEAM */
 .section-team{
