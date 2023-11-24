@@ -294,7 +294,7 @@ background-color: #FFF;}
 }
 .portfolio-over{position: relative;
 overflow: hidden;}
-.portfolio-over:hover.overlay{
+.portfolio-over:hover .overlay{
 transform: translateY(0%);
 }
 .overlay{
@@ -314,6 +314,7 @@ transform: translateY(0%);
     padding-right: 32px;
     overflow: auto;
     transform: translateY(100%);
+    transition: transform 250ms linear;
 }
 .portfolio-card-content{
     max-width: 360px;
