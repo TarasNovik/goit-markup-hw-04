@@ -334,16 +334,9 @@ transform: translateY(0%);
 
 .portfolio-over{position: relative;
 overflow: hidden;}
-.portfolio-over:hover .overlay {
 
-}
-.overlay{
-     left: 0;
-   font-weight: 400;
-   overflow: auto;
-    transform: translateY(100%);
-    transition: transform 250ms linear;
-}
+
+
 .paragraf-overley{
   position: absolute;
    top: 0; 
