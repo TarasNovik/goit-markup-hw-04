@@ -194,6 +194,9 @@ background-size: cover;
     letter-spacing: 0.02em;
     align-items: flex-start;
 }
+.icon-advantages{ fill: #2E2F42;width: 64px;
+    height: 64px;
+    flex-shrink: 0;}
 /* TEAM */
 .section-team{
     background: #F4F4FD;
