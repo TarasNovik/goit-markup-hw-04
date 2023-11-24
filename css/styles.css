@@ -68,7 +68,9 @@ justify-content: space-between;
 .studio{ position: relative;
     color: #404bbf;
 }
-.studio::after{ position: absolute;
+.studio::after{ 
+    position: absolute;
+    color: #404bbf;
     content:'';
     left: 0;
     bottom: -1px;
