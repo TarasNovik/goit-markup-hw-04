@@ -276,8 +276,8 @@ background-position: center;
     justify-content: center;
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-list-icon:focus ,
-.social-list-icon:hover { background-color:#404bbf;}
+.elips-soc:focus,
+.elips-soc:hover{ background-color:#404bbf;}
 
 .portfolio-section{
 background-color:#FFF;}
@@ -400,9 +400,9 @@ transform: translateY(0%);
     
    
    }
-   .social-media{width: 208px;
+   .social-media {width: 208px;
     }
-   .social-media-title{color:#FFF;
+   .social-media-title {color:#FFF;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -410,7 +410,7 @@ transform: translateY(0%);
     line-height: 24px;
     letter-spacing: 0.32px;
 margin-bottom: 16px;}
-.trailing-icons-footer{
+.trailing-icons-footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -418,15 +418,15 @@ margin-bottom: 16px;}
     margin-top: 8px;
     padding-left: 0;
 }
-.logo-p{width: 264px;
+.logo-p {width: 264px;
 margin-right:120px ;}
-.footer-k{
+.footer-k {
     display: flex;
     align-items: baseline;}
 .elips-foot:hover,
 .elips-foot:focus {
     background-color:#31d0aa;
-}
+} 
 
 
     
