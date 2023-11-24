@@ -284,7 +284,10 @@ cursor: pointer;
 .elips-soc:focus,
 .elips-soc:hover{ background-color:#404bbf;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
-
+.elips-foot:focus,
+.elips-foot:hover{
+        background-color:#31d0aa;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .portfolio-section{
 background-color:#FFF;}
    
@@ -433,4 +436,4 @@ margin-right:120px ;}
 .footer-k{
     display: flex;
     align-items: baseline;}
-   
+    
