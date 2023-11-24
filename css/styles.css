@@ -65,12 +65,12 @@ justify-content: space-between;
 .logo-studio{
     color:#2E2F42;
     }
-.studio{ position: relative;
+.studio{ 
     color:#404bbf;
 }
 .studio::after{ 
     position:absolute;
-    color:#404bbf;
+
     content:'';
     left: 0;
     bottom: -1px;
