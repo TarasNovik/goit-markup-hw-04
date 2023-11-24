@@ -77,7 +77,7 @@ justify-content: space-between;
     border-radius: 2px;
     background-color:#404bbf;
    }
-.social-links .link{
+.social-links .link{ position: relative;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
