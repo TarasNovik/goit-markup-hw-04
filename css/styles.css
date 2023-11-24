@@ -384,11 +384,11 @@ transform: translateY(0%);
     font-size: 16px;
     font-weight: 400;
     max-width: 264px;
-    margin-right: 0;
+    margin-right: 120px;
    
    }
    .social-media{width: 208px;
-    margin-left: 120px; }
+    }
    .social-media-title{color: var(--WHITE, #FFF);
     font-family: Roboto;
     font-size: 16px;
@@ -405,7 +405,9 @@ margin-bottom: 16px;}
     margin-top: 8px;
     padding-left: 0;
 }
-.logo-p{width: 264px;}
+.logo-p{width: 264px;
+}
 .footer-k{
     display: flex;
-}
+    align-items: baseline;}
+   
