@@ -426,7 +426,9 @@ margin-right:120px ;}
     display: flex;
     align-items: baseline;}
 
-.elips-foot:focus,
+.elips-foot:focus {
+        background-color: #31d0aa;
+    }
 .elips-foot:hover {
     background-color: #31d0aa;
 }
