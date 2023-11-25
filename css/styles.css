@@ -277,7 +277,7 @@ background-position: center;
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .elips-soc:focus,
-.elips-soc:hover{ background-color:#404bbf;}
+.elips-soc:hover {background-color:#404bbf;}
 
 .portfolio-section{
 background-color:#FFF;}
@@ -425,7 +425,7 @@ margin-right:120px ;}
     align-items: baseline;}
 .elips-foot:hover,
 .elips-foot:focus {
-    background-color:#31d0aa ;
+    background-color:#31d0aa;
 } 
 
 
