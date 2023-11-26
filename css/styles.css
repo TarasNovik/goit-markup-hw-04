@@ -68,7 +68,7 @@ img{
 .studio{ position: relative;
     color:#404bbf;
     }
-.studio::after{ width: 100%;
+.studio::after :hover{ width: 100%;
     position:absolute;
     content:'';
     left: 0;
