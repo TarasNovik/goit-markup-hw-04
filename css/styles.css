@@ -68,7 +68,7 @@ justify-content: space-between;
 .studio{ position: relative;
     color:#404bbf;
 }
-.studio::after{ 
+.studio::after{ width: 100%;
     position:absolute;
     content:'';
     left: 0;
@@ -83,7 +83,7 @@ justify-content: space-between;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
-    color: #404bbf;
+    color: #434455;
 }
 
 .social-links .link:hover,
